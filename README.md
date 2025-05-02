@@ -43,6 +43,11 @@ source .venv/bin/activate
 cd && cd rl-swarm && ./run_rl_swarm.sh
 ```
 
+venv
+```
+cd && cd rl-swarm && source .venv/bin/activate
+```
+
 Edit Config
 ```
 cd && cd rl-swarm/hivemind_exp/configs/gpu && nano grpo-qwen-2.5-0.5b-deepseek-r1.yaml
